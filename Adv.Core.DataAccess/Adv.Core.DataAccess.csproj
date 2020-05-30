@@ -12,4 +12,15 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Initializer\" />
+    <Folder Include="Data\Repository\" />
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adv.Core.Models\Adv.Core.Models.csproj" />
+    <ProjectReference Include="..\Adv.Core.Utility\Adv.Core.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
